@@ -1,1 +1,3 @@
-# trans-info-saude
+# TransInfoSaude
+
+Aplicativo para promoção de saúde de pessoas transgênero
