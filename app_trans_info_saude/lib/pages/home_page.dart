@@ -12,8 +12,28 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: AppBar(
-          title: Text("Home Page"),
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Expanded(flex: 6, child: Container()),
+              Text(
+                "MyTransHealthGuide",
+              ),
+              Expanded(child: Container()),
+              Image.asset(
+                "lib/assets/images/Logo.png",
+                height: 100,
+              ),
+              Expanded(child: Container()),
+              Text(
+                "Seu app de acesso a informação em saúde",
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              Expanded(flex: 3, child: Container()),
+              Expanded(flex: 10, child: Container())
+            ],
+          ),
         ),
       ),
     );
