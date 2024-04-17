@@ -1,4 +1,4 @@
-# TransInfoSaude
+# SAUDE TRANSCEDE
 
 Aplicativo para promoção de saúde de pessoas transgênero
 
